@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrls: ['./success-text-components.component.css'],
 })
 export class SuccessTextComponentsComponent implements OnInit {
+  @Input() password: string;
   constructor() {}
 
   ngOnInit(): void {}
