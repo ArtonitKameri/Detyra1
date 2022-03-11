@@ -1,7 +1,68 @@
-<div class="passwordchanged">
-  <img class="cross" src="assets/images/cross.png" alt="" />
-  <img class="icon" src="assets/images/check.svg" alt="" />
-  <h4>{{ password }}</h4>
-  <p>Please use the new password the next time you login in Travelonio</p>
-  <button mat-raised-button color="primary">Log in</button>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header">
+          <div class="left-side">Travelonio</div>
+          <div class="right-side">
+            <div class="header-navbar">Become a host</div>
+
+            <button class="button1" type="submit">
+              <img src="assets\images\help.png" alt="" />
+            </button>
+            <button class="button1" type="submit">
+              <img src="assets\images\comment.png" alt="" />
+            </button>
+            <button class="button1" type="submit">
+              <img src="assets\images\bell.png" alt="" />
+            </button>
+            <button class="button2" type="submit">
+              <img src="assets\images\globe.png" alt="" />
+            </button>
+            <button class="button3" type="submit">
+              <img
+                src="assets\images\Rectangle 1.png"
+                alt=""
+                style="width: 84px; height: 43px"
+              />
+              <div class="buttonicons">
+                <img
+                  class="Vector"
+                  src="assets\images\Vector.png"
+                  alt=""
+                  style="width: 17px"
+                />
+                <img src="assets\images\Ellipse.png" alt="" />
+              </div>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="fullcard">
+        <div class="card">
+          <img class="icon" src="assets\images\check.svg" alt="" />
+
+          <h4>{{ hero }}</h4>
+          <p>
+            {{ hero1 }}
+          </p>
+
+          <button type="submit" mat-raised-button color="primary">
+            Log In
+          </button>
+        </div>
+        <div class="card-pic">
+          <img class="login" src="assets\images\Img.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

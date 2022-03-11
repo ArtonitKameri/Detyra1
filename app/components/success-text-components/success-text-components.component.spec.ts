@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { MatButtonModule } from '@angular/material/button';
 import { SuccessTextComponentsComponent } from './success-text-components.component';
 
 describe('SuccessTextComponentsComponent', () => {
@@ -8,9 +8,8 @@ describe('SuccessTextComponentsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SuccessTextComponentsComponent ]
-    })
-    .compileComponents();
+      declarations: [SuccessTextComponentsComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
